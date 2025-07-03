@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1a1a4b, #1a1a4b);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.lamp-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.lamp {
+    text-align: center;
+    flex: 1; /* Membuat lampu memiliki lebar yang sama */
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%; /* Menjamin tombol memiliki lebar yang konsisten */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+

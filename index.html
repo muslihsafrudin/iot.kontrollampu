@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>IOT Pengendali Lampu</title>
+</head>
+<body>
+    <div class="container">
+        <div id="welcome-screen">
+            <h1>IOT PENGENDALI LAMPU RUMAH</h1>
+            <p>Karya: Muhammad Muslih Safrudin<br>Kelas XII TEI - SMK N 2 Pengasih</p>
+            <button id="show-controls-btn">Mulai Mengontrol</button>
+        </div>
+
+        <div id="lamp-controls" class="hidden">
+            <h2>Kontrol Lampu</h2>
+            <div class="lamp-container">
+                <div class="lamp">
+                    <h3>Ruan Tamu</h3>
+                    <button class="lamp-toggle" data-lamp="1">ON</button>
+                </div>
+                <div class="lamp">
+                    <h3>Ruang Tengah</h3>
+                    <button class="lamp-toggle" data-lamp="2">ON</button>
+                </div>
+                <div class="lamp">
+                    <h3>Kamar Selatan</h3>
+                    <button class="lamp-toggle" data-lamp="3">ON</button>
+                </div>
+                <div class="lamp">
+                    <h3>Kamar Utara</h3>
+                    <button class="lamp-toggle" data-lamp="4">ON</button>
+                </div>
+            </div>
+            <button id="back-btn">Kembali</button>
+        </div>
+    </div>
+    <div class="gradient-background"></div>
+    <script src="script.js"></script>
+</body>
+</html>
